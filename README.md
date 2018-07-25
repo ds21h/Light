@@ -1,7 +1,7 @@
 # Light
 Domotica light switching system
 
-This is a domotica light switching system. I created it from scratch as cheap as possible.
+This is a domotica light switching system. I created it from scratch as cheap as possible. All the software was developed in Java for portability reasons. The only exception for this rule is the software for the ESP8266 modules. As this is embedded software dedicated to those modules. This is developed in C.
 
 The system consists of the following components:
 - A server to manage the switching. It runs on a Raspberri PI (Raspbian). Two programs run there:
